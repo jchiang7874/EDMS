@@ -1,0 +1,119 @@
+
+body {
+	background-image: url("img/sandpaper.jpg");
+}
+
+
+@font-face {
+	font-family: "sportsjersey.ttf";
+	src: url("sportsjersey.ttf");
+}
+
+header, legend {
+	font-family: "sportsjersey.ttf";
+}
+
+h1 {
+	color: #04B404;
+	margin: -65px 0 0 120px;
+}
+
+img {
+	width: 90px;
+	height: 80px;
+	opacity: 0.8;
+	border-radius: 7px;
+}
+
+legend {
+	color: #DF7401;
+	font-size: 20px;
+}
+
+fieldset {
+	border-radius: 5px;
+}
+
+#container {
+	width: 700px;
+	margin: 60px auto;
+}
+
+header {
+	width: 580px;
+	margin: 60px auto;
+}
+
+.info {
+	font-family: Helvetica;
+	color: #BDBDBD;
+	margin: 5px 0 15px 5px;
+}
+
+label {
+	text-align: left;
+	width: 120px;
+	display: inline-block;
+}
+
+input[type=text] {
+	width: 200px;
+	font-size: 15px;
+	background-color: #E6E6E6;
+}
+
+
+button {
+	width: 45%;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+}
+
+#action-btns {
+	margin: 25px 0px 10px 130px;
+	width: 200px;
+}
+
+button[type=reset] {
+	background-color: #BDBDBD;
+	margin-right: 8%;
+}
+
+button[type=button] {
+	background-color: #04B404;
+}
+
+#list {
+	color: #4F4A4A;
+}
+
+table {
+	width: 100%;
+	background-color: #F5F6CE;
+}
+
+table, td {
+	border: 1px solid #4F4A4A;
+	border-collapse: collapse;
+	border-radius: 3px;
+}
+
+td {
+	padding: 5px;
+}
+
+tr:nth-child(even) {
+	background-color: #E6E6E6;
+}
+
+
+footer {
+	color: #888;
+	text-align: center;
+}
+
+
+

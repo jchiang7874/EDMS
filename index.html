@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>EDMS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+
+	<header>
+		<img src="img/gears.jpg" alt="gears logo">
+		<h1>Employee Data Management System</h1>
+	</header>
+	
+	<section id="container">
+		<form name="employee">
+			<fieldset>
+				<legend>
+					<h3>
+						Employee Information:
+					</h3>
+				</legend>
+				<div class="info">
+					<label>First Name:</label>
+					<input type="text" name="name" data-value="firstName">
+				</div>
+				<div class="info">	
+					<label>Last Name:</label>
+					<input type="text" name="name" data-value="lastName">
+				</div>
+				<div class="info">	
+					<label>Phone Number:</label>
+					<input type="text" name="phone" data-value="phone">
+					<span>(10 digit number, no dashes or parentheses)</span>
+				</div>
+				<div class="info">
+					<label>Email:</label>
+					<input type="text" name="email" data-value="email">
+				</div>		
+				<div id="action-btns">
+					<button type="reset" data-value="reset">Reset</button>
+					<button type="button" data-value="submit">Submit</button>
+				</div>
+			</fieldset>
+		</form>
+
+		<fieldset id="display">
+			<legend>
+				<h3>
+					Employee List
+				</h3>
+			</legend>	
+			<div id="list">
+				<table id ="data">
+					<tbody>
+						<tr>
+							<th>Name</th>
+							<th>Phone Number</th>
+							<th>Email</th>
+						</tr>	
+						<tr>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</fieldset>
+	</section>
+
+	<footer>
+		<p>&copy; Copyright 2014 Jennifer</p>
+	</footer>
+
+	<script src="myscript1.js"></script>
+
+</body>
+
+</html>
